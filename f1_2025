@@ -1,0 +1,85 @@
+// Formula 1 2025 Schedule Widget
+// Fetches schedule from a GitHub repo and displays the next upcoming session.
+
+const GITHUB_RAW_URL = "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO/main/f1_schedule.json";
+
+async function fetchSchedule() {
+  let request = new Request(GITHUB_RAW_URL);
+  return await request.loadJSON();
+}
+
+// Get current time
+const now = new Date();
+
+// Find the next upcoming session
+async function getNextSession() {
+  let schedule = await fetchSchedule();
+  let nextSession = null;
+
+  for (const race of schedule) {
+    for (const session of race.sessions) {
+      let sessionDate = new Date(`${session.date}T${session.time}:00`);
+      if (sessionDate > now) {
+        nextSession = { gp: race.gp, ...session, dateTime: sessionDate };
+        break;
+      }
+    }
+    if (nextSession) break;
+  }
+  return nextSession;
+}
+
+// Countdown Timer
+function getCountdown(targetDate) {
+  const diff = targetDate - now;
+  if (diff <= 0) return "Live Now!";
+  const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+  const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+  const minutes = Math.floor((diff / (1000 * 60)) % 60);
+  return `${days}d ${hours}h ${minutes}m`;
+}
+
+// Widget Setup
+async function createWidget() {
+  let nextSession = await getNextSession();
+  let widget = new ListWidget();
+  widget.setPadding(15, 15, 15, 15);
+  widget.backgroundColor = new Color("#EFEFEF");
+
+  // Title
+  let title = widget.addText("🏁 Formula 1 2025");
+  title.font = Font.boldSystemFont(16);
+  title.textColor = Color.black();
+  widget.addSpacer(5);
+
+  if (nextSession) {
+    let countdownText = widget.addText(getCountdown(nextSession.dateTime));
+    countdownText.font = Font.mediumSystemFont(14);
+    countdownText.textColor = Color.red();
+    widget.addSpacer(5);
+
+    let gpText = widget.addText(nextSession.gp);
+    gpText.font = Font.boldSystemFont(18);
+    gpText.textColor = Color.black();
+
+    let sessionText = widget.addText(`${nextSession.name}`);
+    sessionText.font = Font.boldSystemFont(16);
+    sessionText.textColor = Color.blue();
+
+    let dateText = widget.addText(`${nextSession.date} - ${nextSession.time}`);
+    dateText.font = Font.mediumSystemFont(14);
+    dateText.textColor = Color.darkGray();
+  } else {
+    let noEventText = widget.addText("No upcoming events");
+    noEventText.font = Font.mediumSystemFont(16);
+    noEventText.textColor = Color.gray();
+  }
+
+  return widget;
+}
+
+// Run Widget
+let widget = await createWidget();
+Script.setWidget(widget);
+Script.complete();
+widget.presentMedium();
