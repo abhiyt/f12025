@@ -1,7 +1,7 @@
 // Formula 1 2025 Schedule Widget
 // Fetches schedule from a GitHub repo and displays the next upcoming session.
 
-const GITHUB_RAW_URL = "https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO/main/f1_schedule.json";
+const GITHUB_RAW_URL = "https://raw.githubusercontent.com/abhiyt/f12025/main/f1_schedule.json";
 
 async function fetchSchedule() {
   let request = new Request(GITHUB_RAW_URL);
