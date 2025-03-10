@@ -1,0 +1,57 @@
+// Formula 1 2025 Schedule Widget
+// Fetches processed next session from a GitHub-hosted script with UI settings.
+
+const GITHUB_PROCESSED_URL = "https://raw.githubusercontent.com/abhiyt/f12025/main/f1_next_session.js";
+
+async function fetchSessionData() {
+  let request = new Request(GITHUB_PROCESSED_URL);
+  return await request.loadJSON();
+}
+
+// Widget Setup
+async function createWidget() {
+  let data = await fetchSessionData();
+  let sessionData = data.session;
+  let ui = data.ui;
+
+  let widget = new ListWidget();
+  widget.setPadding(15, 15, 15, 15);
+  widget.backgroundColor = new Color(ui.backgroundColor);
+
+  // Title
+  let title = widget.addText(ui.title);
+  title.font = Font.boldSystemFont(ui.fontSizes.title);
+  title.textColor = new Color(ui.fontColors.title);
+  widget.addSpacer(5);
+
+  if (!sessionData.message) {
+    let countdownText = widget.addText(sessionData.countdown);
+    countdownText.font = Font.mediumSystemFont(ui.fontSizes.countdown);
+    countdownText.textColor = new Color(ui.fontColors.countdown);
+    widget.addSpacer(5);
+
+    let gpText = widget.addText(sessionData.gp);
+    gpText.font = Font.boldSystemFont(ui.fontSizes.gp);
+    gpText.textColor = new Color(ui.fontColors.gp);
+
+    let sessionText = widget.addText(sessionData.name);
+    sessionText.font = Font.boldSystemFont(ui.fontSizes.session);
+    sessionText.textColor = new Color(ui.fontColors.session);
+
+    let dateText = widget.addText(`${sessionData.date} - ${sessionData.time}`);
+    dateText.font = Font.mediumSystemFont(ui.fontSizes.date);
+    dateText.textColor = new Color(ui.fontColors.date);
+  } else {
+    let noEventText = widget.addText(sessionData.message);
+    noEventText.font = Font.mediumSystemFont(ui.fontSizes.noEvent);
+    noEventText.textColor = new Color(ui.fontColors.noEvent);
+  }
+
+  return widget;
+}
+
+// Run Widget
+let widget = await createWidget();
+Script.setWidget(widget);
+Script.complete();
+widget.presentMedium();
