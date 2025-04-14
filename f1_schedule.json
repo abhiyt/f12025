@@ -2,241 +2,231 @@
   {
     "gp": "AUSTRALIAN GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-03-14", "time": "07:00" },
-      { "name": "FP2", "date": "2025-03-14", "time": "10:30" },
-      { "name": "FP3", "date": "2025-03-15", "time": "07:00" },
-      { "name": "QU", "date": "2025-03-15", "time": "10:30" },
-      { "name": "RACE", "date": "2025-03-16", "time": "09:30" }
+      { "name": "FP1", "date": "14-MAR-2025", "time": "07:00" },
+      { "name": "FP2", "date": "14-MAR-2025", "time": "10:30" },
+      { "name": "FP3", "date": "15-MAR-2025", "time": "07:00" },
+      { "name": "Quali", "date": "15-MAR-2025", "time": "10:30" },
+      { "name": "RACE", "date": "16-MAR-2025", "time": "09:30" }
     ]
   },
   {
     "gp": "CHINESE GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-03-21", "time": "09:00" },
-      { "name": "SPRINT QU", "date": "2025-03-21", "time": "13:00" },
-      { "name": "SPRINT", "date": "2025-03-22", "time": "08:30" },
-      { "name": "QU", "date": "2025-03-22", "time": "12:30" },
-      { "name": "RACE", "date": "2025-03-23", "time": "12:30" }
+      { "name": "FP1", "date": "21-MAR-2025", "time": "09:00" },
+      { "name": "SPRINT Quali", "date": "21-MAR-2025", "time": "13:00" },
+      { "name": "SPRINT", "date": "22-MAR-2025", "time": "08:30" },
+      { "name": "Quali", "date": "22-MAR-2025", "time": "12:30" },
+      { "name": "RACE", "date": "23-MAR-2025", "time": "12:30" }
     ]
   },
   {
     "gp": "JAPANESE GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-04-04", "time": "08:00" },
-      { "name": "FP2", "date": "2025-04-04", "time": "11:30" },
-      { "name": "FP3", "date": "2025-04-05", "time": "08:00" },
-      { "name": "QU", "date": "2025-04-05", "time": "11:30" },
-      { "name": "RACE", "date": "2025-04-06", "time": "10:30" }
+      { "name": "FP1", "date": "04-APR-2025", "time": "08:00" },
+      { "name": "FP2", "date": "04-APR-2025", "time": "11:30" },
+      { "name": "FP3", "date": "05-APR-2025", "time": "08:00" },
+      { "name": "Quali", "date": "05-APR-2025", "time": "11:30" },
+      { "name": "RACE", "date": "06-APR-2025", "time": "10:30" }
     ]
   },
   {
     "gp": "BAHRAIN GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-04-11", "time": "17:00" },
-      { "name": "FP2", "date": "2025-04-11", "time": "20:30" },
-      { "name": "FP3", "date": "2025-04-12", "time": "18:00" },
-      { "name": "QU", "date": "2025-04-12", "time": "21:30" },
-      { "name": "RACE", "date": "2025-04-13", "time": "20:30" }
+      { "name": "FP1", "date": "11-APR-2025", "time": "17:00" },
+      { "name": "FP2", "date": "11-APR-2025", "time": "20:30" },
+      { "name": "FP3", "date": "12-APR-2025", "time": "18:00" },
+      { "name": "Quali", "date": "12-APR-2025", "time": "21:30" },
+      { "name": "RACE", "date": "13-APR-2025", "time": "20:30" }
     ]
   },
   {
     "gp": "SAUDI ARABIAN GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-04-18", "time": "19:00" },
-      { "name": "FP2", "date": "2025-04-18", "time": "22:30" },
-      { "name": "FP3", "date": "2025-04-19", "time": "19:00" },
-      { "name": "QU", "date": "2025-04-19", "time": "22:30" },
-      { "name": "RACE", "date": "2025-04-20", "time": "22:30" }
+      { "name": "FP1", "date": "18-APR-2025", "time": "19:00" },
+      { "name": "FP2", "date": "18-APR-2025", "time": "22:30" },
+      { "name": "FP3", "date": "19-APR-2025", "time": "19:00" },
+      { "name": "Quali", "date": "19-APR-2025", "time": "22:30" },
+      { "name": "RACE", "date": "20-APR-2025", "time": "22:30" }
     ]
   },
   {
     "gp": "MIAMI GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-05-02", "time": "22:00" },
-      { "name": "SPRINT QU", "date": "2025-05-03", "time": "01:00" },
-      { "name": "SPRINT", "date": "2025-05-03", "time": "20:30" },
-      { "name": "QU", "date": "2025-05-04", "time": "01:30" },
-      { "name": "RACE", "date": "2025-05-05", "time": "01:30" }
+      { "name": "FP1", "date": "02-MAY-2025", "time": "22:00" },
+      { "name": "SPRINT Quali", "date": "03-MAY-2025", "time": "01:00" },
+      { "name": "SPRINT", "date": "03-MAY-2025", "time": "20:30" },
+      { "name": "Quali", "date": "04-MAY-2025", "time": "01:30" },
+      { "name": "RACE", "date": "05-MAY-2025", "time": "01:30" }
     ]
   },
   {
     "gp": "EMILIA ROMAGNA GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-05-16", "time": "17:00" },
-      { "name": "FP2", "date": "2025-05-16", "time": "20:30" },
-      { "name": "FP3", "date": "2025-05-17", "time": "16:00" },
-      { "name": "QU", "date": "2025-05-17", "time": "19:30" },
-      { "name": "RACE", "date": "2025-05-18", "time": "18:30" }
+      { "name": "FP1", "date": "16-MAY-2025", "time": "17:00" },
+      { "name": "FP2", "date": "16-MAY-2025", "time": "20:30" },
+      { "name": "FP3", "date": "17-MAY-2025", "time": "16:00" },
+      { "name": "Quali", "date": "17-MAY-2025", "time": "19:30" },
+      { "name": "RACE", "date": "18-MAY-2025", "time": "18:30" }
     ]
   },
   {
     "gp": "MONACO GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-05-23", "time": "17:00" },
-      { "name": "FP2", "date": "2025-05-23", "time": "20:30" },
-      { "name": "FP3", "date": "2025-05-24", "time": "16:00" },
-      { "name": "QU", "date": "2025-05-24", "time": "19:30" },
-      { "name": "RACE", "date": "2025-05-25", "time": "18:30" }
+      { "name": "FP1", "date": "23-MAY-2025", "time": "17:00" },
+      { "name": "FP2", "date": "23-MAY-2025", "time": "20:30" },
+      { "name": "FP3", "date": "24-MAY-2025", "time": "16:00" },
+      { "name": "Quali", "date": "24-MAY-2025", "time": "19:30" },
+      { "name": "RACE", "date": "25-MAY-2025", "time": "18:30" }
     ]
   },
   {
     "gp": "SPANISH GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-05-30", "time": "17:00" },
-      { "name": "FP2", "date": "2025-05-30", "time": "20:30" },
-      { "name": "FP3", "date": "2025-05-31", "time": "16:00" },
-      { "name": "QU", "date": "2025-05-31", "time": "19:30" },
-      { "name": "RACE", "date": "2025-06-01", "time": "18:30" }
+      { "name": "FP1", "date": "30-MAY-2025", "time": "17:00" },
+      { "name": "FP2", "date": "30-MAY-2025", "time": "20:30" },
+      { "name": "FP3", "date": "31-MAY-2025", "time": "16:00" },
+      { "name": "Quali", "date": "31-MAY-2025", "time": "19:30" },
+      { "name": "RACE", "date": "01-JUN-2025", "time": "18:30" }
     ]
   },
   {
     "gp": "CANADIAN GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-06-13", "time": "23:00" },
-      { "name": "FP2", "date": "2025-06-14", "time": "02:30" },
-      { "name": "FP3", "date": "2025-06-14", "time": "22:00" },
-      { "name": "QU", "date": "2025-06-15", "time": "01:30" },
-      { "name": "RACE", "date": "2025-06-16", "time": "00:30" }
+      { "name": "FP1", "date": "06-JUN-2025", "time": "23:00" },
+      { "name": "FP2", "date": "07-JUN-2025", "time": "02:30" },
+      { "name": "FP3", "date": "07-JUN-2025", "time": "22:00" },
+      { "name": "Quali", "date": "08-JUN-2025", "time": "01:30" },
+      { "name": "RACE", "date": "09-JUN-2025", "time": "00:30" }
     ]
   },
   {
     "gp": "AUSTRIAN GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-06-27", "time": "17:00" },
-      { "name": "FP2", "date": "2025-06-27", "time": "20:30" },
-      { "name": "FP3", "date": "2025-06-28", "time": "16:00" },
-      { "name": "QU", "date": "2025-06-28", "time": "19:30" },
-      { "name": "RACE", "date": "2025-06-29", "time": "18:30" }
+      { "name": "FP1", "date": "27-JUN-2025", "time": "17:00" },
+      { "name": "SPRINT Quali", "date": "27-JUN-2025", "time": "21:00" },
+      { "name": "SPRINT", "date": "28-JUN-2025", "time": "16:30" },
+      { "name": "Quali", "date": "28-JUN-2025", "time": "20:30" },
+      { "name": "RACE", "date": "29-JUN-2025", "time": "18:30" }
     ]
   },
   {
     "gp": "BRITISH GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-07-04", "time": "17:00" },
-      { "name": "FP2", "date": "2025-07-04", "time": "20:30" },
-      { "name": "FP3", "date": "2025-07-05", "time": "16:00" },
-      { "name": "QU", "date": "2025-07-05", "time": "19:30" },
-      { "name": "RACE", "date": "2025-07-06", "time": "19:30" }
+      { "name": "FP1", "date": "04-JUL-2025", "time": "17:00" },
+      { "name": "FP2", "date": "04-JUL-2025", "time": "20:30" },
+      { "name": "FP3", "date": "05-JUL-2025", "time": "16:00" },
+      { "name": "Quali", "date": "05-JUL-2025", "time": "19:30" },
+      { "name": "RACE", "date": "06-JUL-2025", "time": "19:30" }
     ]
   },
   {
     "gp": "BELGIAN GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-07-25", "time": "16:00" },
-      { "name": "SPRINT QU", "date": "2025-07-25", "time": "20:00" },
-      { "name": "SPRINT", "date": "2025-07-26", "time": "15:30" },
-      { "name": "QU", "date": "2025-07-26", "time": "19:30" },
-      { "name": "RACE", "date": "2025-07-27", "time": "18:30" }
-    ]
-  },
-  {
-    "gp": "HUNGARIAN GP",
-    "sessions": [
-      { "name": "FP1", "date": "2025-08-01", "time": "17:00" },
-      { "name": "FP2", "date": "2025-08-01", "time": "20:30" },
-      { "name": "FP3", "date": "2025-08-02", "time": "16:00" },
-      { "name": "QU", "date": "2025-08-02", "time": "19:30" },
-      { "name": "RACE", "date": "2025-08-03", "time": "18:30" }
+      { "name": "FP1", "date": "25-JUL-2025", "time": "17:00" },
+      { "name": "FP2", "date": "25-JUL-2025", "time": "20:30" },
+      { "name": "FP3", "date": "26-JUL-2025", "time": "16:00" },
+      { "name": "Quali", "date": "26-JUL-2025", "time": "19:30" },
+      { "name": "RACE", "date": "27-JUL-2025", "time": "18:30" }
     ]
   },
   {
     "gp": "DUTCH GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-08-29", "time": "16:00" },
-      { "name": "FP2", "date": "2025-08-29", "time": "19:30" },
-      { "name": "FP3", "date": "2025-08-30", "time": "15:00" },
-      { "name": "QU", "date": "2025-08-30", "time": "18:30" },
-      { "name": "RACE", "date": "2025-08-31", "time": "18:30" }
+      { "name": "FP1", "date": "29-AUG-2025", "time": "17:00" },
+      { "name": "FP2", "date": "29-AUG-2025", "time": "20:30" },
+      { "name": "FP3", "date": "30-AUG-2025", "time": "16:00" },
+      { "name": "Quali", "date": "30-AUG-2025", "time": "19:30" },
+      { "name": "RACE", "date": "31-AUG-2025", "time": "18:30" }
     ]
   },
   {
     "gp": "ITALIAN GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-09-05", "time": "17:00" },
-      { "name": "FP2", "date": "2025-09-05", "time": "20:30" },
-      { "name": "FP3", "date": "2025-09-06", "time": "16:00" },
-      { "name": "QU", "date": "2025-09-06", "time": "19:30" },
-      { "name": "RACE", "date": "2025-09-07", "time": "18:30" }
+      { "name": "FP1", "date": "05-SEP-2025", "time": "17:00" },
+      { "name": "FP2", "date": "05-SEP-2025", "time": "20:30" },
+      { "name": "FP3", "date": "06-SEP-2025", "time": "16:00" },
+      { "name": "Quali", "date": "06-SEP-2025", "time": "19:30" },
+      { "name": "RACE", "date": "07-SEP-2025", "time": "18:30" }
     ]
   },
   {
     "gp": "AZERBAIJAN GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-09-19", "time": "14:00" },
-      { "name": "FP2", "date": "2025-09-19", "time": "17:30" },
-      { "name": "FP3", "date": "2025-09-20", "time": "14:00" },
-      { "name": "QU", "date": "2025-09-20", "time": "17:30" },
-      { "name": "RACE", "date": "2025-09-21", "time": "16:30" }
+      { "name": "FP1", "date": "19-SEP-2025", "time": "17:00" },
+      { "name": "SPRINT Quali", "date": "19-SEP-2025", "time": "21:00" },
+      { "name": "SPRINT", "date": "20-SEP-2025", "time": "16:30" },
+      { "name": "Quali", "date": "20-SEP-2025", "time": "20:30" },
+      { "name": "RACE", "date": "21-SEP-2025", "time": "18:30" }
     ]
   },
   {
     "gp": "SINGAPORE GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-10-03", "time": "15:00" },
-      { "name": "FP2", "date": "2025-10-03", "time": "18:30" },
-      { "name": "FP3", "date": "2025-10-04", "time": "15:00" },
-      { "name": "QU", "date": "2025-10-04", "time": "18:30" },
-      { "name": "RACE", "date": "2025-10-05", "time": "17:30" }
+      { "name": "FP1", "date": "03-OCT-2025", "time": "15:00" },
+      { "name": "FP2", "date": "03-OCT-2025", "time": "18:30" },
+      { "name": "FP3", "date": "04-OCT-2025", "time": "15:00" },
+      { "name": "Quali", "date": "04-OCT-2025", "time": "18:30" },
+      { "name": "RACE", "date": "05-OCT-2025", "time": "18:30" }
     ]
   },
   {
     "gp": "UNITED STATES GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-10-17", "time": "23:00" },
-      { "name": "SPRINT QU", "date": "2025-10-18", "time": "03:00" },
-      { "name": "SPRINT", "date": "2025-10-18", "time": "22:30" },
-      { "name": "QU", "date": "2025-10-19", "time": "02:30" },
-      { "name": "RACE", "date": "2025-10-20", "time": "00:30" }
+      { "name": "FP1", "date": "17-OCT-2025", "time": "23:00" },
+      { "name": "SPRINT Quali", "date": "18-OCT-2025", "time": "03:00" },
+      { "name": "SPRINT", "date": "18-OCT-2025", "time": "22:30" },
+      { "name": "Quali", "date": "19-OCT-2025", "time": "02:30" },
+      { "name": "RACE", "date": "20-OCT-2025", "time": "00:30" }
     ]
   },
   {
     "gp": "MEXICAN GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-10-25", "time": "00:00" },
-      { "name": "FP2", "date": "2025-10-25", "time": "03:30" },
-      { "name": "FP3", "date": "2025-10-25", "time": "23:00" },
-      { "name": "QU", "date": "2025-10-26", "time": "02:30" },
-      { "name": "RACE", "date": "2025-10-27", "time": "01:30" }
+      { "name": "FP1", "date": "24-OCT-2025", "time": "23:00" },
+      { "name": "FP2", "date": "25-OCT-2025", "time": "02:30" },
+      { "name": "FP3", "date": "25-OCT-2025", "time": "22:00" },
+      { "name": "Quali", "date": "26-OCT-2025", "time": "01:30" },
+      { "name": "RACE", "date": "27-OCT-2025", "time": "00:30" }
     ]
   },
   {
-    "gp": "SAO PAULO GP",
+    "gp": "BRAZILIAN GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-11-07", "time": "20:00" },
-      { "name": "SPRINT QU", "date": "2025-11-08", "time": "00:00" },
-      { "name": "SPRINT", "date": "2025-11-08", "time": "19:30" },
-      { "name": "QU", "date": "2025-11-08", "time": "23:30" },
-      { "name": "RACE", "date": "2025-11-09", "time": "22:30" }
+      { "name": "FP1", "date": "07-NOV-2025", "time": "19:00" },
+      { "name": "SPRINT Quali", "date": "07-NOV-2025", "time": "23:00" },
+      { "name": "SPRINT", "date": "08-NOV-2025", "time": "19:30" },
+      { "name": "Quali", "date": "08-NOV-2025", "time": "23:30" },
+      { "name": "RACE", "date": "09-NOV-2025", "time": "23:30" }
     ]
   },
   {
     "gp": "LAS VEGAS GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-11-21", "time": "06:00" },
-      { "name": "FP2", "date": "2025-11-21", "time": "09:30" },
-      { "name": "FP3", "date": "2025-11-22", "time": "06:00" },
-      { "name": "QU", "date": "2025-11-22", "time": "09:30" },
-      { "name": "RACE", "date": "2025-11-23", "time": "09:30" }
+      { "name": "FP1", "date": "20-NOV-2025", "time": "13:00" },
+      { "name": "FP2", "date": "21-NOV-2025", "time": "16:30" },
+      { "name": "FP3", "date": "22-NOV-2025", "time": "13:00" },
+      { "name": "Quali", "date": "22-NOV-2025", "time": "16:30" },
+      { "name": "RACE", "date": "23-NOV-2025", "time": "14:30" }
     ]
   },
   {
     "gp": "QATAR GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-11-28", "time": "19:00" },
-      { "name": "SPRINT QU", "date": "2025-11-28", "time": "23:00" },
-      { "name": "SPRINT", "date": "2025-11-29", "time": "19:30" },
-      { "name": "QU", "date": "2025-11-29", "time": "23:30" },
-      { "name": "RACE", "date": "2025-11-30", "time": "21:30" }
+      { "name": "FP1", "date": "28-NOV-2025", "time": "19:00" },
+      { "name": "SPRINT Quali", "date": "28-NOV-2025", "time": "23:00" },
+      { "name": "SPRINT", "date": "29-NOV-2025", "time": "19:30" },
+      { "name": "Quali", "date": "29-NOV-2025", "time": "23:30" },
+      { "name": "RACE", "date": "30-NOV-2025", "time": "22:30" }
     ]
   },
   {
     "gp": "ABU DHABI GP",
     "sessions": [
-      { "name": "FP1", "date": "2025-12-05", "time": "15:00" },
-      { "name": "FP2", "date": "2025-12-05", "time": "18:30" },
-      { "name": "FP3", "date": "2025-12-06", "time": "16:00" },
-      { "name": "QU", "date": "2025-12-06", "time": "19:30" },
-      { "name": "RACE", "date": "2025-12-07", "time": "18:30" }
+      { "name": "FP1", "date": "05-DEC-2025", "time": "15:00" },
+      { "name": "FP2", "date": "05-DEC-2025", "time": "18:30" },
+      { "name": "FP3", "date": "06-DEC-2025", "time": "15:00" },
+      { "name": "Quali", "date": "06-DEC-2025", "time": "18:30" },
+      { "name": "RACE", "date": "07-DEC-2025", "time": "18:30" }
     ]
   }
 ]
