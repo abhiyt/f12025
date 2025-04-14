@@ -3,6 +3,7 @@
 
 const GITHUB_RAW_URL = "https://raw.githubusercontent.com/abhiyt/f12025/main/f1_schedule.json";
 
+// Fetch JSON schedule from GitHub
 async function fetchSchedule() {
   let request = new Request(GITHUB_RAW_URL);
   return await request.loadJSON();
@@ -11,7 +12,19 @@ async function fetchSchedule() {
 // Get current time
 const now = new Date();
 
-// Find the next upcoming Grand Prix
+// Parse custom DD-MMM-YYYY and HH:MM to a Date object
+function parseDateTime(dateStr, timeStr) {
+  const [day, monthStr, year] = dateStr.split("-");
+  const monthMap = {
+    JAN: 0, FEB: 1, MAR: 2, APR: 3, MAY: 4, JUN: 5,
+    JUL: 6, AUG: 7, SEP: 8, OCT: 9, NOV: 10, DEC: 11
+  };
+  const [hour, minute] = timeStr.split(":").map(Number);
+  const month = monthMap[monthStr.toUpperCase()];
+  return new Date(Number(year), month, Number(day), hour, minute);
+}
+
+// Find the next upcoming Grand Prix and session
 async function getNextRace() {
   let schedule = await fetchSchedule();
   let upcomingRace = null;
@@ -19,7 +32,7 @@ async function getNextRace() {
 
   for (const race of schedule) {
     for (const session of race.sessions) {
-      let sessionDate = new Date(`${session.date}T${session.time}:00`);
+      let sessionDate = parseDateTime(session.date, session.time);
       if (sessionDate > now) {
         upcomingRace = race;
         nextSession = { gp: race.gp, ...session, dateTime: sessionDate };
@@ -47,18 +60,18 @@ async function createWidget() {
   let { upcomingRace, nextSession } = await getNextRace();
   let widget = new ListWidget();
   widget.setPadding(15, 15, 15, 15);
-  widget.backgroundColor = new Color("#EFEFEF");
+  widget.backgroundColor = new Color("#000000");
 
   // Title
   let title = widget.addText("🏁 Formula 1 2025");
   title.font = Font.boldSystemFont(16);
-  title.textColor = Color.black();
+  title.textColor = Color.white();
   widget.addSpacer(5);
 
   if (upcomingRace) {
     let gpText = widget.addText(upcomingRace.gp);
     gpText.font = Font.boldSystemFont(18);
-    gpText.textColor = Color.black();
+    gpText.textColor = Color.white();
     widget.addSpacer(3);
 
     if (nextSession) {
